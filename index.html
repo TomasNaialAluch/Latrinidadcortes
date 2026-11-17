@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frigorífico La Trinidad | Carnicería en Buenos Aires</title>
+  <meta name="description" content="Frigorífico La Trinidad, carnicería en José E. Rodó 6341, Ciudad Autónoma de Buenos Aires. Atendemos de lunes a sábado de 4 a 12 hs. Pedidos por WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Frigorífico La Trinidad">
+  <meta property="og:description" content="Carnicería en José E. Rodó 6341, CABA. Lunes a sábado de 4 a 12 hs. Pedidos por WhatsApp.">
+  <meta property="og:locale" content="es_AR">
+  <meta name="theme-color" content="#7a1f26">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%237a1f26'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' font-weight='700' text-anchor='middle' fill='%23fff'%3ELT%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --vino: #7a1f26;
+      --vino-oscuro: #5c161c;
+      --fondo: #f7f4f0;
+      --tarjeta: #ffffff;
+      --texto: #231f20;
+      --suave: #6b6561;
+      --borde: #e4ded8;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--fondo);
+      color: var(--texto);
+      line-height: 1.55;
+    }
+    header {
+      background: var(--vino);
+      color: #fff;
+      padding: 56px 20px 48px;
+      text-align: center;
+    }
+    header .marca {
+      width: 64px; height: 64px; margin: 0 auto 18px;
+      border-radius: 16px; background: #fff; color: var(--vino);
+      display: grid; place-items: center;
+      font: 700 28px/1 Georgia, "Times New Roman", serif;
+    }
+    h1 { margin: 0 0 6px; font-size: clamp(1.9rem, 6vw, 2.8rem); font-weight: 700; letter-spacing: -0.01em; }
+    header p { margin: 0; font-size: 1.05rem; opacity: 0.9; }
+    main { max-width: 760px; margin: 0 auto; padding: 28px 16px 48px; display: grid; gap: 16px; }
+    section {
+      background: var(--tarjeta);
+      border: 1px solid var(--borde);
+      border-radius: 14px;
+      padding: 22px 22px 20px;
+    }
+    h2 { margin: 0 0 10px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--suave); }
+    .grande { font-size: 1.25rem; font-weight: 600; margin: 0 0 4px; }
+    .suave { color: var(--suave); margin: 0; }
+    table { width: 100%; border-collapse: collapse; }
+    td { padding: 7px 0; border-bottom: 1px solid var(--borde); }
+    tr:last-child td { border-bottom: 0; }
+    td:last-child { text-align: right; font-weight: 600; }
+    .cerrado { color: var(--suave); font-weight: 400; }
+    .acciones { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    a.boton {
+      display: inline-block; padding: 11px 20px; border-radius: 10px;
+      font-weight: 600; text-decoration: none; border: 1px solid var(--vino);
+      color: var(--vino); background: transparent;
+    }
+    a.boton.principal { background: var(--vino); color: #fff; }
+    a.boton:hover { background: var(--vino-oscuro); color: #fff; border-color: var(--vino-oscuro); }
+    a:focus-visible { outline: 3px solid #e0a3a8; outline-offset: 2px; }
+    footer { text-align: center; padding: 8px 16px 36px; font-size: 0.85rem; color: var(--suave); }
+    footer a { color: inherit; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="marca" aria-hidden="true">LT</div>
+    <h1>Frigorífico La Trinidad</h1>
+    <p>Carnicería en Buenos Aires</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="donde">
+      <h2 id="donde">Dónde estamos</h2>
+      <p class="grande">José E. Rodó 6341</p>
+      <p class="suave">C1440, Ciudad Autónoma de Buenos Aires, Argentina</p>
+      <div class="acciones">
+        <a class="boton" href="https://www.google.com/maps/place/Frigor%C3%ADfico+La+Trinidad/@-34.6578593,-58.503613,17z" target="_blank" rel="noopener">Ver en Google Maps</a>
+      </div>
+    </section>
+
+    <section aria-labelledby="horarios">
+      <h2 id="horarios">Horarios</h2>
+      <table>
+        <tbody>
+          <tr><td>Lunes a sábado</td><td>4 a 12 hs</td></tr>
+          <tr><td>Domingo</td><td class="cerrado">Cerrado</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="contacto">
+      <h2 id="contacto">Pedidos y consultas</h2>
+      <p class="grande">Escribinos por WhatsApp</p>
+      <p class="suave">+54 9 11 7350-8899</p>
+      <div class="acciones">
+        <a class="boton principal" href="https://wa.me/5491173508899" target="_blank" rel="noopener">Abrir WhatsApp</a>
+        <a class="boton" href="https://www.instagram.com/latrinidad.carne/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; Frigorífico La Trinidad</footer>
+</body>
+</html>
