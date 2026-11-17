@@ -14,5 +14,5 @@ npx firebase deploy --only hosting --project mireparto-14d64
 
 ## Contenido
 
-- `index.html`: la página completa (HTML y CSS en un solo archivo, sin dependencias).
-- `firebase.json` y `.firebaserc`: configuración de Hosting.
+- `public/index.html`: la página completa (HTML y CSS en un solo archivo, sin dependencias).
+- `firebase.json` y `.firebaserc`: configuración de Hosting. Se publica solo la carpeta `public/`, para no exponer archivos internos del repositorio.

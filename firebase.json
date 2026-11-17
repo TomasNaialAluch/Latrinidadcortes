@@ -1,10 +1,9 @@
 {
   "hosting": {
     "site": "frigorifico-la-trinidad",
-    "public": ".",
+    "public": "public",
     "ignore": [
       "firebase.json",
-      "README.md",
       "**/.*",
       "**/node_modules/**"
     ],
