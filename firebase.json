@@ -9,10 +9,16 @@
     ],
     "headers": [
       {
-        "source": "index.html",
+        "source": "**/*.@(html|js)",
         "headers": [
           { "key": "Cache-Control", "value": "no-cache" }
         ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/api/chat",
+        "function": { "functionId": "chatWeb", "region": "southamerica-east1" }
       }
     ]
   }
